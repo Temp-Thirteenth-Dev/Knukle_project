@@ -1,0 +1,6 @@
+opencv-contrib-python-headless
+numpy
+Pillow
+matplotlib
+Flask
+gunicorn

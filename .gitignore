@@ -1,0 +1,57 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# Database files (if local, e.g. SQLite)
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Flask / web app stuff
+instance/
+.webassets-cache
+
+# Static build artifacts (if any)
+dist/
+build/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+*.swp
+*.swo
+
+# Secrets / keys
+*.pem
+*.key
+
+# __pycache__ inside folders explicitly
+*/__pycache__/
+
+# Ignore uploads if your app stores user files
+uploads/
+
+database/
